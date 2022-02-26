@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frontpage_contents",
+  "info": {
+    "singularName": "frontpage-content",
+    "pluralName": "frontpage-contents",
+    "displayName": "frontpage-content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section": {
+      "type": "uid"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "content_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::content-type.content-type"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

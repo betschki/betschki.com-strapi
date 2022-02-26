@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_types",
+  "info": {
+    "singularName": "content-type",
+    "pluralName": "content-types",
+    "displayName": "content-types",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "uid"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employments",
+  "info": {
+    "singularName": "employment",
+    "pluralName": "employments",
+    "displayName": "Employment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "tags": {
+      "type": "json"
+    }
+  }
+}
